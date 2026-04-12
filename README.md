@@ -7,7 +7,7 @@
 | Component | Path | Description |
 |-----------|------|-------------|
 | **Agent** | `/ama` (Claude Code skill) | Claude Code skill for building and operating managed agents |
-| **App** | `/app` → `localhost:24202` | Next.js courses gallery — browse, filter, and track learning resources |
+| **App** | `/app` → `localhost:24202` | Next.js learning dashboard — 7 modules, 34 lessons, quiz, progress tracking |
 | **Guide** | [`/docs/claude-architect-certification.md`](./docs/claude-architect-certification.md) | 7-module Claude Architect Certification guide |
 
 ---
@@ -258,7 +258,7 @@ Or manually: copy `.claude/skills/ama/SKILL.md` → `~/.claude/skills/ama/SKILL.
 
 ---
 
-## App — Courses Gallery
+## App — Learning Dashboard
 
 ```bash
 cd app
@@ -267,7 +267,9 @@ npm run dev
 # → http://localhost:24202
 ```
 
-Browse, filter, and track your Managed Agents learning path across 7 modules and 34 lessons.
+Full study dashboard — 7 modules, 34 lessons, interactive quiz (15 questions), per-module progress tracking, and curated resources. Lesson completion persists in localStorage.
+
+**Pages:** `/` modules · `/modules/[id]` lessons · `/quiz` · `/progress` · `/resources` · `/settings`
 
 ---
 

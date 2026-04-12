@@ -232,6 +232,32 @@ Performance gains vs. coupled architecture:
 
 ---
 
+## /ama Skill
+
+Claude Code skill — exam coach, quiz runner, guide navigator, and app launcher.
+
+**Install:**
+```bash
+mkdir -p ~/.claude/skills/ama
+curl -o ~/.claude/skills/ama/SKILL.md \
+  https://raw.githubusercontent.com/flexappdev/ama/main/skill/SKILL.md
+```
+
+Or manually: copy `skill/SKILL.md` → `~/.claude/skills/ama/SKILL.md`
+
+**Usage:**
+```
+/ama               # Status
+/ama quiz          # Random practice question
+/ama module 3      # Deep dive into Module 3 (Built-in Tools)
+/ama cheat         # Compact cheat sheet — all 7 modules
+/ama app           # Launch study dashboard at localhost:24202
+/ama plan          # Structured learning plan
+/ama resources     # Curated links
+```
+
+---
+
 ## App — Courses Gallery
 
 ```bash
@@ -241,7 +267,7 @@ npm run dev
 # → http://localhost:24202
 ```
 
-Browse, filter, and track your Managed Agents learning path. Courses are indexed in `courses.json`.
+Browse, filter, and track your Managed Agents learning path across 7 modules and 34 lessons.
 
 ---
 

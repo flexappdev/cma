@@ -8,7 +8,7 @@ A complete reference implementation and learning system for **Claude Managed Age
 
 | Component | Path | Purpose |
 |-----------|------|---------|
-| **Skill** | `skill/SKILL.md` | Claude Code `/ama` skill — exam coach, quiz runner, app launcher |
+| **Skill** | `.claude/skills/ama/SKILL.md` | Claude Code `/ama` skill — exam coach, quiz runner, app launcher |
 | **App** | `app/` | Next.js 15 courses gallery (port 24202) |
 | **Guide** | `docs/claude-architect-certification.md` | 7-module Claude Architect Certification guide |
 | **Data** | `app/courses.json` | 12 seeded courses (filterable, searchable) |
@@ -89,7 +89,7 @@ Edit `app/courses.json` — add an object to the `courses` array with:
 ```bash
 mkdir -p ~/.claude/skills/ama
 curl -o ~/.claude/skills/ama/SKILL.md \
-  https://raw.githubusercontent.com/flexappdev/ama/main/skill/SKILL.md
+  https://raw.githubusercontent.com/flexappdev/ama/main/.claude/skills/ama/SKILL.md
 ```
 
 Then use `/ama` in any Claude Code session.

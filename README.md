@@ -240,10 +240,10 @@ Claude Code skill — exam coach, quiz runner, guide navigator, and app launcher
 ```bash
 mkdir -p ~/.claude/skills/ama
 curl -o ~/.claude/skills/ama/SKILL.md \
-  https://raw.githubusercontent.com/flexappdev/ama/main/skill/SKILL.md
+  https://raw.githubusercontent.com/flexappdev/ama/main/.claude/skills/ama/SKILL.md
 ```
 
-Or manually: copy `skill/SKILL.md` → `~/.claude/skills/ama/SKILL.md`
+Or manually: copy `.claude/skills/ama/SKILL.md` → `~/.claude/skills/ama/SKILL.md`
 
 **Usage:**
 ```

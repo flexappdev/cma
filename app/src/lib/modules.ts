@@ -120,7 +120,7 @@ export const MODULES: Module[] = [
     module: 7,
     color: "yellow",
     icon: "GraduationCap",
-    description: "25-question assessment covering all 6 modules. Pass to earn your Anthropic Managed Agents certification.",
+    description: "25-question assessment covering all 6 modules. Pass to earn your Claude Managed Agents certification.",
     lessons: [
       { id: "module-1-review", title: "Module 1–2 Review", duration: "20min" },
       { id: "module-3-review", title: "Module 3–4 Review", duration: "20min" },

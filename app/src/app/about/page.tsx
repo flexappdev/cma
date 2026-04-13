@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="h-4 w-px bg-zinc-800" />
           <div className="flex items-center gap-2">
             <Info className="h-3.5 w-3.5 text-zinc-400" />
-            <h1 className="text-sm font-semibold text-zinc-100">About AMA</h1>
+            <h1 className="text-sm font-semibold text-zinc-100">About CMA</h1>
           </div>
         </div>
       </div>
@@ -35,16 +35,16 @@ export default function AboutPage() {
 
         {/* What is AMA */}
         <section>
-          <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-4">What is AMA?</p>
+          <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-4">What is CMA?</p>
           <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-5">
             <p className="text-sm text-zinc-300 leading-relaxed">
-              <strong className="text-zinc-100">Anthropic Managed Agents</strong> is a platform layer on top of the Claude API
+              <strong className="text-zinc-100">Claude Managed Agents</strong> is a platform layer on top of the Claude API
               that handles long-running, autonomous agent tasks. Instead of managing your own event loops, sandboxed
-              containers, and fault-tolerance logic, AMA provides a fully managed infrastructure where you define an agent
+              containers, and fault-tolerance logic, CMA provides a fully managed infrastructure where you define an agent
               once and let Anthropic handle the rest.
             </p>
             <p className="text-sm text-zinc-400 leading-relaxed mt-3">
-              This study app covers the AMA curriculum in 7 modules — from core primitives to multi-agent coordination
+              This study app covers the CMA curriculum in 7 modules — from core primitives to multi-agent coordination
               and production security patterns — culminating in a 25-question certification assessment.
             </p>
           </div>

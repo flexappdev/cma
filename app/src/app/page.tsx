@@ -17,7 +17,7 @@ export default function HomePage() {
           <div className="flex items-center gap-3 mb-1">
             <BookOpen className="h-5 w-5" style={{ color: "var(--app-accent)" }} />
             <h1 className="text-lg font-bold text-zinc-100">
-              Anthropic Managed Agents
+              Claude Managed Agents
             </h1>
           </div>
           <p className="text-sm text-zinc-500 ml-8">

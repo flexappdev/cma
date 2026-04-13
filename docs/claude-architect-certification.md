@@ -1,6 +1,6 @@
 # Claude Architect Certification Guide
 
-> Master the Anthropic Managed Agents platform. 7 modules, 25 assessment questions, one certification.
+> Master the Claude Managed Agents platform. 7 modules, 25 assessment questions, one certification.
 
 **Target audience:** Engineers deploying production AI agents on Anthropic's managed infrastructure.
 **Time to complete:** ~8 hours (10 POMs)

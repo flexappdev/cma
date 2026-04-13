@@ -26,8 +26,8 @@ export default function AppHeader({ search, onSearchChange, totalCourses, filter
             <BookOpen className="h-4 w-4 text-primary-foreground" />
           </div>
           <div className="hidden sm:block">
-            <div className="text-sm font-bold text-foreground leading-none">AMA Courses</div>
-            <div className="text-xs text-muted-foreground leading-none mt-0.5">Anthropic Managed Agents</div>
+            <div className="text-sm font-bold text-foreground leading-none">CMA Courses</div>
+            <div className="text-xs text-muted-foreground leading-none mt-0.5">Claude Managed Agents</div>
           </div>
         </div>
 

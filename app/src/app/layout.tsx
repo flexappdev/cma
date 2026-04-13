@@ -8,8 +8,8 @@ import ShellWrapper from "@/components/ShellWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AMA — Anthropic Managed Agents",
-  description: "Learn Anthropic Managed Agents: core API, built-in tools, multi-agent patterns, security, and certification.",
+  title: "CMA — Claude Managed Agents",
+  description: "Learn Claude Managed Agents: core API, built-in tools, multi-agent patterns, security, and certification.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,4 +1,4 @@
-# AMA — Anthropic Managed Agents
+# CMA — Claude Managed Agents
 
 Claude Code instructions for the `~/APPS/ama` codebase.
 

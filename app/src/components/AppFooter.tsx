@@ -16,9 +16,9 @@ export default function AppFooter() {
         <div className="flex items-center gap-2">
           <BookOpen className="h-3.5 w-3.5 shrink-0" style={{ color: "var(--app-accent)" }} />
           <span className="text-xs font-semibold" style={{ color: "var(--app-accent)" }}>
-            AMA Study App
+            CMA Study App
           </span>
-          <span className="text-xs text-zinc-600">— Anthropic Managed Agents</span>
+          <span className="text-xs text-zinc-600">— Claude Managed Agents</span>
         </div>
         <div className="flex items-center gap-3">
           <Link

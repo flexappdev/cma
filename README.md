@@ -1,4 +1,4 @@
-# AMA — Anthropic Managed Agents
+# CMA — Claude Managed Agents
 
 > **Agent · App · Certification** — A complete reference implementation and learning system for Claude Managed Agents (public beta, April 2026).
 

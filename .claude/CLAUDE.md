@@ -1,6 +1,6 @@
 # CMA — Claude Managed Agents
 
-Claude Code instructions for the `~/APPS/ama` codebase.
+Claude Code instructions for the `~/APPS/cma` codebase.
 
 ## What This Repo Is
 

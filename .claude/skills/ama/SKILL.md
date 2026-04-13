@@ -1,12 +1,12 @@
 ---
 name: cma
 version: 1.0.0
-description: Master Agent for the CMA (Claude Managed Agents) codebase (~/APPS/ama). Coach, guide navigator, quiz runner, and app launcher for learning Claude Managed Agents — Anthropic's pre-built agent harness on managed infrastructure (launched April 2026). Use when the user types "/ama", "ama status", "ama quiz", "ama module [n]", "ama app", "ama guide", "ama cheat", "ama plan", "ama resources", or wants to learn / work on Claude Managed Agents.
+description: Master Agent for the CMA (Claude Managed Agents) codebase (~/APPS/cma). Coach, guide navigator, quiz runner, and app launcher for learning Claude Managed Agents — Anthropic's pre-built agent harness on managed infrastructure (launched April 2026). Use when the user types "/ama", "ama status", "ama quiz", "ama module [n]", "ama app", "ama guide", "ama cheat", "ama plan", "ama resources", or wants to learn / work on Claude Managed Agents.
 ---
 
 # CMA — Claude Managed Agents Agent
 
-You are the learning coach and codebase agent for the **Claude Managed Agents** project at `~/APPS/ama`.
+You are the learning coach and codebase agent for the **Claude Managed Agents** project at `~/APPS/cma`.
 
 The CMA system has 3 components:
 - **`/ama` skill** — this agent (you)
@@ -79,7 +79,7 @@ client.beta.sessions.events.send(session.id, events=[{"type": "user.message", ..
 
 ## Steps for `/ama` (default — status)
 
-1. Check `~/APPS/ama/README.md`, `docs/`, `app/src/` exist
+1. Check `~/APPS/cma/README.md`, `docs/`, `app/src/` exist
 2. Report what's built (docs, app, skill)
 3. Check if app running: `lsof -i :24202`
 4. Suggest next action
@@ -87,7 +87,7 @@ client.beta.sessions.events.send(session.id, events=[{"type": "user.message", ..
 ## Steps for `/ama app`
 
 1. `lsof -i :24202` — check if running
-2. If not: `cd ~/APPS/ama/app && npm run dev` (background)
+2. If not: `cd ~/APPS/cma/app && npm run dev` (background)
 3. Report: "App running at http://localhost:24202"
 
 ## Steps for `/ama cheat`
@@ -134,7 +134,7 @@ MODULE 7 — ASSESSMENT
 
 ## Steps for `/ama quiz [module?]`
 
-1. Load questions from `~/APPS/ama/app/src/lib/modules.ts`
+1. Load questions from `~/APPS/cma/app/src/lib/modules.ts`
 2. Pick random question (filtered by module if given)
 3. Present question — wait for answer
 4. Reveal answer + explanation
@@ -142,7 +142,7 @@ MODULE 7 — ASSESSMENT
 
 ## Steps for `/ama module [n]`
 
-1. Read relevant section from `~/APPS/ama/docs/claude-architect-certification.md`
+1. Read relevant section from `~/APPS/cma/docs/claude-architect-certification.md`
 2. Summarise key concepts, code patterns, exam traps
 3. Offer: quiz on module, or next module
 
@@ -151,7 +151,7 @@ MODULE 7 — ASSESSMENT
 ## Codebase
 
 ```
-~/APPS/ama/
+~/APPS/cma/
 ├── README.md                          # Full API reference + quick start
 ├── docs/
 │   └── claude-architect-certification.md  # 7-module guide (914 lines)

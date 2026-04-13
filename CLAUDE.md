@@ -8,7 +8,7 @@ Three-part learning system for **Claude Managed Agents** (Anthropic, public beta
 
 - `app/` — Next.js 15 study dashboard (port **24202**)
 - `docs/claude-architect-certification.md` — 7-module certification guide with 25 assessment questions
-- `.claude/skills/ama/SKILL.md` — installable `/ama` Claude Code skill
+- `.claude/skills/cma/SKILL.md` — installable `/ama` Claude Code skill
 
 ## App Commands
 
@@ -64,7 +64,7 @@ npx tsc --noEmit # Type check
 ## Install the /ama Skill
 
 ```bash
-mkdir -p ~/.claude/skills/ama
-curl -o ~/.claude/skills/ama/SKILL.md \
-  https://raw.githubusercontent.com/flexappdev/ama/main/.claude/skills/ama/SKILL.md
+mkdir -p ~/.claude/skills/cma
+curl -o ~/.claude/skills/cma/SKILL.md \
+  https://raw.githubusercontent.com/flexappdev/cma/main/.claude/skills/cma/SKILL.md
 ```

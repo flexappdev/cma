@@ -1,5 +1,5 @@
 ---
-name: ama
+name: cma
 version: 1.0.0
 description: Master Agent for the CMA (Claude Managed Agents) codebase (~/APPS/ama). Coach, guide navigator, quiz runner, and app launcher for learning Claude Managed Agents — Anthropic's pre-built agent harness on managed infrastructure (launched April 2026). Use when the user types "/ama", "ama status", "ama quiz", "ama module [n]", "ama app", "ama guide", "ama cheat", "ama plan", "ama resources", or wants to learn / work on Claude Managed Agents.
 ---
@@ -169,9 +169,9 @@ MODULE 7 — ASSESSMENT
 ## Install This Skill
 
 ```bash
-mkdir -p ~/.claude/skills/ama
-curl -o ~/.claude/skills/ama/SKILL.md \
-  https://raw.githubusercontent.com/flexappdev/ama/main/.claude/skills/ama/SKILL.md
+mkdir -p ~/.claude/skills/cma
+curl -o ~/.claude/skills/cma/SKILL.md \
+  https://raw.githubusercontent.com/flexappdev/cma/main/.claude/skills/cma/SKILL.md
 ```
 
 ---
@@ -184,4 +184,4 @@ curl -o ~/.claude/skills/ama/SKILL.md \
 | Engineering deep-dive | https://www.anthropic.com/engineering/managed-agents |
 | Launch blog | https://claude.com/blog/claude-managed-agents |
 | Research preview | https://claude.com/form/claude-managed-agents |
-| This repo | https://github.com/flexappdev/ama |
+| This repo | https://github.com/flexappdev/cma |

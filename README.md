@@ -238,12 +238,12 @@ Claude Code skill — exam coach, quiz runner, guide navigator, and app launcher
 
 **Install:**
 ```bash
-mkdir -p ~/.claude/skills/ama
-curl -o ~/.claude/skills/ama/SKILL.md \
-  https://raw.githubusercontent.com/flexappdev/ama/main/.claude/skills/ama/SKILL.md
+mkdir -p ~/.claude/skills/cma
+curl -o ~/.claude/skills/cma/SKILL.md \
+  https://raw.githubusercontent.com/flexappdev/cma/main/.claude/skills/cma/SKILL.md
 ```
 
-Or manually: copy `.claude/skills/ama/SKILL.md` → `~/.claude/skills/ama/SKILL.md`
+Or manually: copy `.claude/skills/cma/SKILL.md` → `~/.claude/skills/cma/SKILL.md`
 
 **Usage:**
 ```

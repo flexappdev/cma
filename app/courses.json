@@ -1,7 +1,7 @@
 {
   "courses": [
     {
-      "id": "ama-001",
+      "id": "cma-001",
       "slug": "managed-agents-fundamentals",
       "title": "Claude Managed Agents: Fundamentals",
       "description": "Master the four core primitives — Agent, Environment, Session, Events — and understand why the decoupled architecture gives you 90%+ latency improvements over self-built loops.",
@@ -17,7 +17,7 @@
       "students": 1240
     },
     {
-      "id": "ama-002",
+      "id": "cma-002",
       "slug": "core-api-mastery",
       "title": "Core API Mastery: Agents, Environments, Sessions",
       "description": "Deep dive into every API endpoint — create versioned agents, configure container environments with package caching, stream session events with full SSE handling, and master mid-session steering.",
@@ -33,7 +33,7 @@
       "students": 876
     },
     {
-      "id": "ama-003",
+      "id": "cma-003",
       "slug": "built-in-toolset",
       "title": "Built-in Tools: bash, read, write, grep, web_search",
       "description": "Leverage the full agent_toolset_20260401 — configure allowlists, disable tools for security, understand when each tool is appropriate, and build agents that use the filesystem and web effectively.",
@@ -49,7 +49,7 @@
       "students": 654
     },
     {
-      "id": "ama-004",
+      "id": "cma-004",
       "slug": "custom-tools-mcp",
       "title": "Custom Tools & MCP Integration",
       "description": "Build high-performing custom tools: write detailed descriptions that maximize model performance, consolidate operations, handle tool results in your stream, and connect MCP servers for GitHub, databases, and more.",
@@ -65,7 +65,7 @@
       "students": 432
     },
     {
-      "id": "ama-005",
+      "id": "cma-005",
       "slug": "multi-agent-coordination",
       "title": "Multi-Agent Coordination Patterns",
       "description": "Architect orchestrator/subagent systems — declare callable agents, stream multi-threaded sessions, handle thread events, and design delegation patterns for code review, testing, and research workflows.",
@@ -81,7 +81,7 @@
       "students": 312
     },
     {
-      "id": "ama-006",
+      "id": "cma-006",
       "slug": "security-production",
       "title": "Security & Production Patterns",
       "description": "Production-grade agent deployment: least-privilege networking, the secure vault pattern, credential handling, prompt injection defense, spend limits, and the complete production checklist.",
@@ -97,7 +97,7 @@
       "students": 287
     },
     {
-      "id": "ama-007",
+      "id": "cma-007",
       "slug": "environment-configuration",
       "title": "Environments & Container Configuration",
       "description": "Configure cloud containers from scratch — pre-install packages across 6 package managers, set networking modes (unrestricted vs. limited), manage environment lifecycle, and optimise package caching across sessions.",
@@ -113,7 +113,7 @@
       "students": 521
     },
     {
-      "id": "ama-008",
+      "id": "cma-008",
       "slug": "architect-certification-prep",
       "title": "Claude Architect Certification: Exam Prep",
       "description": "Complete preparation for the Claude Certified Architect exam — covers all 7 modules, 25 practice questions with explanations, the practical implementation task, and scoring rubric.",
@@ -129,7 +129,7 @@
       "students": 198
     },
     {
-      "id": "ama-009",
+      "id": "cma-009",
       "slug": "observability-debugging",
       "title": "Agent Observability & Debugging",
       "description": "Use the Claude Console for session tracing, interpret every event type, debug failed tool calls, handle session.status_error gracefully, and build production logging pipelines for agent sessions.",
@@ -145,7 +145,7 @@
       "students": 389
     },
     {
-      "id": "ama-010",
+      "id": "cma-010",
       "slug": "cost-optimisation",
       "title": "Cost Optimisation for AI Agents",
       "description": "Minimise spend with prompt caching, context compaction, allowlist toolsets, limited networking, efficient system prompts, and org-level spend controls. Includes cost modelling for typical agent workloads.",
@@ -161,7 +161,7 @@
       "students": 445
     },
     {
-      "id": "ama-011",
+      "id": "cma-011",
       "slug": "enterprise-deployment",
       "title": "Enterprise Deployment Patterns",
       "description": "Deploy managed agents at enterprise scale — Slack/Teams integration (Rakuten pattern), multi-department rollout, SLA management, compliance considerations, data residency limitations, and the one-week deployment playbook.",
@@ -177,7 +177,7 @@
       "students": 176
     },
     {
-      "id": "ama-012",
+      "id": "cma-012",
       "slug": "claude-code-fundamentals",
       "title": "Claude Code: The Developer CLI",
       "description": "Master the Claude Code CLI — CLAUDE.md context, custom skills, MCP servers, subagents, hooks, and keybindings. The foundational tool for every Claude developer workflow.",

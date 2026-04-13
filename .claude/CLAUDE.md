@@ -8,7 +8,7 @@ A complete reference implementation and learning system for **Claude Managed Age
 
 | Component | Path | Purpose |
 |-----------|------|---------|
-| **Skill** | `.claude/skills/cma/SKILL.md` | Claude Code `/ama` skill — exam coach, quiz runner, app launcher |
+| **Skill** | `.claude/skills/cma/SKILL.md` | Claude Code `/cma` skill — exam coach, quiz runner, app launcher |
 | **App** | `app/` | Next.js 15 courses gallery (port 24202) |
 | **Guide** | `docs/claude-architect-certification.md` | 7-module Claude Architect Certification guide |
 | **Data** | `app/courses.json` | 12 seeded courses (filterable, searchable) |
@@ -92,7 +92,7 @@ curl -o ~/.claude/skills/cma/SKILL.md \
   https://raw.githubusercontent.com/flexappdev/cma/main/.claude/skills/cma/SKILL.md
 ```
 
-Then use `/ama` in any Claude Code session.
+Then use `/cma` in any Claude Code session.
 
 ## Links
 

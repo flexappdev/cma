@@ -6,7 +6,7 @@
 
 | Component | Path | Description |
 |-----------|------|-------------|
-| **Agent** | `/ama` (Claude Code skill) | Claude Code skill for building and operating managed agents |
+| **Agent** | `/cma` (Claude Code skill) | Claude Code skill for building and operating managed agents |
 | **App** | `/app` → `localhost:24202` | Next.js learning dashboard — 7 modules, 34 lessons, quiz, progress tracking |
 | **Guide** | [`/docs/claude-architect-certification.md`](./docs/claude-architect-certification.md) | 7-module Claude Architect Certification guide |
 
@@ -232,7 +232,7 @@ Performance gains vs. coupled architecture:
 
 ---
 
-## /ama Skill
+## /cma Skill
 
 Claude Code skill — exam coach, quiz runner, guide navigator, and app launcher.
 
@@ -247,13 +247,13 @@ Or manually: copy `.claude/skills/cma/SKILL.md` → `~/.claude/skills/cma/SKILL.
 
 **Usage:**
 ```
-/ama               # Status
-/ama quiz          # Random practice question
-/ama module 3      # Deep dive into Module 3 (Built-in Tools)
-/ama cheat         # Compact cheat sheet — all 7 modules
-/ama app           # Launch study dashboard at localhost:24202
-/ama plan          # Structured learning plan
-/ama resources     # Curated links
+/cma               # Status
+/cma quiz          # Random practice question
+/cma module 3      # Deep dive into Module 3 (Built-in Tools)
+/cma cheat         # Compact cheat sheet — all 7 modules
+/cma app           # Launch study dashboard at localhost:24202
+/cma plan          # Structured learning plan
+/cma resources     # Curated links
 ```
 
 ---

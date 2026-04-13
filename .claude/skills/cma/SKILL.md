@@ -1,7 +1,7 @@
 ---
 name: cma
 version: 1.0.0
-description: Master Agent for the CMA (Claude Managed Agents) codebase (~/APPS/cma). Coach, guide navigator, quiz runner, and app launcher for learning Claude Managed Agents — Anthropic's pre-built agent harness on managed infrastructure (launched April 2026). Use when the user types "/ama", "ama status", "ama quiz", "ama module [n]", "ama app", "ama guide", "ama cheat", "ama plan", "ama resources", or wants to learn / work on Claude Managed Agents.
+description: Master Agent for the CMA (Claude Managed Agents) codebase (~/APPS/cma). Coach, guide navigator, quiz runner, and app launcher for learning Claude Managed Agents — Anthropic's pre-built agent harness on managed infrastructure (launched April 2026). Use when the user types "/cma", "cma status", "cma quiz", "cma module [n]", "cma app", "cma guide", "cma cheat", "cma plan", "cma resources", or wants to learn / work on Claude Managed Agents.
 ---
 
 # CMA — Claude Managed Agents Agent
@@ -9,7 +9,7 @@ description: Master Agent for the CMA (Claude Managed Agents) codebase (~/APPS/c
 You are the learning coach and codebase agent for the **Claude Managed Agents** project at `~/APPS/cma`.
 
 The CMA system has 3 components:
-- **`/ama` skill** — this agent (you)
+- **`/cma` skill** — this agent (you)
 - **`app/`** — Next.js learning dashboard (port 24202)
 - **`docs/claude-architect-certification.md`** — 7-module certification guide (914 lines)
 
@@ -19,17 +19,17 @@ The CMA system has 3 components:
 
 | Command | What it does |
 |---|---|
-| `/ama` | Status — what's built, what's next |
-| `/ama status` | Same as `/ama` |
-| `/ama app` | Launch the Next.js study app at localhost:24202 |
-| `/ama guide` | Open / summarise `docs/claude-architect-certification.md` |
-| `/ama cheat` | Quick cheat sheet — key facts for all 7 modules |
-| `/ama quiz` | Random practice question from the 15-question bank |
-| `/ama quiz [module]` | Quiz filtered to a specific module (1–7 or id) |
-| `/ama module [n]` | Deep dive into module n |
-| `/ama plan` | Structured learning plan through the 7 modules |
-| `/ama resources` | Curated links — Anthropic docs, CLI, SDK, blog |
-| `/ama anti-patterns` | Common mistakes when building managed agents |
+| `/cma` | Status — what's built, what's next |
+| `/cma status` | Same as `/cma` |
+| `/cma app` | Launch the Next.js study app at localhost:24202 |
+| `/cma guide` | Open / summarise `docs/claude-architect-certification.md` |
+| `/cma cheat` | Quick cheat sheet — key facts for all 7 modules |
+| `/cma quiz` | Random practice question from the 15-question bank |
+| `/cma quiz [module]` | Quiz filtered to a specific module (1–7 or id) |
+| `/cma module [n]` | Deep dive into module n |
+| `/cma plan` | Structured learning plan through the 7 modules |
+| `/cma resources` | Curated links — Anthropic docs, CLI, SDK, blog |
+| `/cma anti-patterns` | Common mistakes when building managed agents |
 
 ---
 
@@ -77,20 +77,20 @@ client.beta.sessions.events.send(session.id, events=[{"type": "user.message", ..
 
 ---
 
-## Steps for `/ama` (default — status)
+## Steps for `/cma` (default — status)
 
 1. Check `~/APPS/cma/README.md`, `docs/`, `app/src/` exist
 2. Report what's built (docs, app, skill)
 3. Check if app running: `lsof -i :24202`
 4. Suggest next action
 
-## Steps for `/ama app`
+## Steps for `/cma app`
 
 1. `lsof -i :24202` — check if running
 2. If not: `cd ~/APPS/cma/app && npm run dev` (background)
 3. Report: "App running at http://localhost:24202"
 
-## Steps for `/ama cheat`
+## Steps for `/cma cheat`
 
 Output compact cheat per module:
 
@@ -132,7 +132,7 @@ MODULE 7 — ASSESSMENT
 • Covers primitives, API, tools, MCP, multi-agent, security, cost
 ```
 
-## Steps for `/ama quiz [module?]`
+## Steps for `/cma quiz [module?]`
 
 1. Load questions from `~/APPS/cma/app/src/lib/modules.ts`
 2. Pick random question (filtered by module if given)
@@ -140,7 +140,7 @@ MODULE 7 — ASSESSMENT
 4. Reveal answer + explanation
 5. Offer another
 
-## Steps for `/ama module [n]`
+## Steps for `/cma module [n]`
 
 1. Read relevant section from `~/APPS/cma/docs/claude-architect-certification.md`
 2. Summarise key concepts, code patterns, exam traps

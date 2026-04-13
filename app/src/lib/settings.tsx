@@ -47,7 +47,7 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("ama-settings");
+      const saved = localStorage.getItem("cma-settings");
       const parsed: Settings = saved ? { ...DEFAULT_SETTINGS, ...JSON.parse(saved) } : DEFAULT_SETTINGS;
       setSettings(parsed);
       applyAccent(parsed.accentColor);
@@ -59,7 +59,7 @@ export function SettingsProvider({ children }: { children: React.ReactNode }) {
   const update = useCallback((patch: Partial<Settings>) => {
     setSettings((prev) => {
       const next = { ...prev, ...patch };
-      try { localStorage.setItem("ama-settings", JSON.stringify(next)); } catch { /* noop */ }
+      try { localStorage.setItem("cma-settings", JSON.stringify(next)); } catch { /* noop */ }
       if (patch.accentColor) applyAccent(patch.accentColor);
       return next;
     });

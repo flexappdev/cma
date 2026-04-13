@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import React from "react";
 
-const STORAGE_KEY = "ama-lesson-progress";
+const STORAGE_KEY = "cma-lesson-progress";
 
 export function lessonKey(moduleId: string, lessonId: string): string {
   return `${moduleId}::${lessonId}`;
